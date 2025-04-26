@@ -1,4 +1,4 @@
-package selenium;
+package javaBasics;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,11 +6,10 @@ import java.util.List;
 
 public class JavaBasics002 {
     public static void main(String[] args) {
-		//if else
+
 		int[] arr = {1,2,3,4,5,6,7,8,9,10};
-		//if else 
+//if else 
 		
-				
 		for(int a:arr) {
 			if(a%2==0) {
 				System.out.println(a+" Is a multiple"+"\n");
@@ -19,7 +18,7 @@ public class JavaBasics002 {
 				System.out.println(a+" Is not multiple of 2");
 			}
 		}
-		//arraylist
+//arraylist
 		ArrayList<String> a =new ArrayList<String>();
 		a.add("Selenium");
 		a.add("Project");
@@ -33,15 +32,15 @@ public class JavaBasics002 {
 		}
 		System.out.println("\n"+"Checking if a value is present in a ArrayList or not");
 		System.out.println(a.contains("Selenium")+"\n");
-		//Enhanced for loop
+//Enhanced for loop
 		//for(String val:a) {
 		//	System.out.println(val);
 		//}
-		//converting Array to Arraylist
+//converting Array to Arraylist
 		String[] name = {"Aswim","Barath","Calvin","Durgesh","Edwin","Fazil","Gokul"};
 		List<String> namelist = Arrays.asList(name);
 		//num.add(100, null);
-		//while loop
+//while loop
 		int i=0;
 		while(i<namelist.size()) {
 			System.out.println(namelist.get(i));

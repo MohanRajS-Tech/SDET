@@ -1,9 +1,9 @@
-package selenium;
+package javaBasics;
 
 public class JavaBasics001 {
     public static void main(String[] args) {
 		//java variable
-		//variable & Data Types
+//variable & Data Types
 		
 		System.out.println("Variables print out");
 		
@@ -14,9 +14,9 @@ public class JavaBasics001 {
 		Boolean result = true;
 		System.out.println(num+"  "+name+"  "+letter+"  "+dec+"  "+result+ "\n");
 		
-		//arrays-to store multiple value in a single variable
+//arrays-to store multiple value in a single variable
 		System.out.println("Int Array print out");
-		//1st way
+    //1st way
 		int[] arr = new int[5];
 		arr[0] = 1;
 		arr[1] = 2;
@@ -24,11 +24,11 @@ public class JavaBasics001 {
 		arr[3] = 4;
 		arr[4] = 5;
 				
-		//2nd way
+	//2nd way
 		int[] arr2 = {6,7,8,9,10};
 		System.out.println(arr[4]+ arr2[4]);//15
 				
-		//for loop
+//for loop
 		int len=(arr2.length-1);
 		
 		for(int i = 0; i<arr2.length;i++)
