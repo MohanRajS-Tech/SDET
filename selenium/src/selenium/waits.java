@@ -30,11 +30,22 @@ public class waits {
 		//its waits for 5 sec even if the element loads in 1 sec
 		//it does not listen to DOM
 		
-		
-		
-		
-		
-
+		/*
+		 * EXPLICIT WAIT
+		 * it will effect only on the element u r targetting
+		 * if it finds the element it moves
+		 * can be achieved in 2 ways
+		 * 1.WebDriverWait
+		 * 2.Fluent Wait
+		 * Fluent wait is a typr of explicit wait ,thr is no much difference
+		 * FLUENT EXPLICIT WAIT MECHANISM
+		 * it checks for the webelement at a constnt interval of time
+		 * but webdriverwait monitors DOM continuously
+		 * 
+		 * Fluent wait code is a bit complicated
+		 * 
+		 * 
+		 * */
 	}
 
 }
